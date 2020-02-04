@@ -1,40 +1,22 @@
 package com.company;
 
 public class Bus extends Vehicle{
-    private String make;
-    private String model;
-    private int year;
-    private String color;
+    private int busNumber;
+    private  String type;
 
-    public String getMake() {
-        return make;
+    public int getBusNumber() {
+        return busNumber;
     }
 
-    public void setMake(String make) {
-        this.make = make;
+    public void setBusNumber(int busNumber) {
+        this.busNumber = busNumber;
     }
 
-    public String getModel() {
-        return model;
+    public String getType() {
+        return type;
     }
 
-    public void setModel(String model) {
-        this.model = model;
-    }
-
-    public int getYear() {
-        return year;
-    }
-
-    public void setYear(int year) {
-        this.year = year;
-    }
-
-    public String getColor() {
-        return color;
-    }
-
-    public void setColor(String color) {
-        this.color = color;
+    public void setType(String type) {
+        this.type = type;
     }
 }

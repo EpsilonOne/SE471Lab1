@@ -1,8 +1,10 @@
 package com.company;
 
 public class Trip {
+    private String name;
     private String source;
     private String destination;
+
 
     public String getSource() {
         return source;

@@ -4,14 +4,8 @@ public class Schedule {
     private int scheduleNumber;
     private String startTime;
 
-    public Schedule(int scheduleNumber, String startTime) {
-        this.scheduleNumber = scheduleNumber;
-        this.startTime = startTime;
-    }
-
-
     public static void main(String[] args) {
-	// write your code here
+
     }
 
     public int getScheduleNumber() {
@@ -29,4 +23,6 @@ public class Schedule {
     public void setStartTime(String startTime) {
         this.startTime = startTime;
     }
+
+
 }
