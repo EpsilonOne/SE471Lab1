@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.ArrayList;
+
 public class Vehicle {
     private String make;
     private String model;
@@ -7,6 +9,7 @@ public class Vehicle {
     private String color;
     private int numberOfSeats;
     private String plateNO;
+    private ArrayList<Schedule> schedules;
 
     public String getMake() {
         return make;

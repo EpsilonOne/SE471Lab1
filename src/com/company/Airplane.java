@@ -4,6 +4,15 @@ public class Airplane extends Vehicle {
     private int flightNumber;
     private  String  hangar;
     private String boardingGroup;
+    private String destination;
+
+    public String getDestination() {
+        return destination;
+    }
+
+    public void setDestination(String destination) {
+        this.destination = destination;
+    }
 
     public int getFlightNumber() {
         return flightNumber;

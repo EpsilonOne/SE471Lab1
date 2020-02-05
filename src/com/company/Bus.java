@@ -3,6 +3,8 @@ package com.company;
 public class Bus extends Vehicle{
     private int busNumber;
     private  String type;
+    private String start;
+    private String  end;
 
     public int getBusNumber() {
         return busNumber;
@@ -18,5 +20,25 @@ public class Bus extends Vehicle{
 
     public void setType(String type) {
         this.type = type;
+    }
+
+    public String getStart() {
+        return start;
+    }
+
+    public void setStart(String start) {
+        this.start = start;
+    }
+
+    public String getEnd() {
+        return end;
+    }
+
+    public void setEnd(String end) {
+        this.end = end;
+    }
+
+    public void reserveBus(Bus b){
+
     }
 }

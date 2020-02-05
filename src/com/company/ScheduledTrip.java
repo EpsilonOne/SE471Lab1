@@ -1,16 +1,17 @@
 package com.company;
 
 import java.awt.*;
+import java.util.ArrayList;
+
 
 public class ScheduledTrip extends Trip {
-    private List unscheduledTrips;
+    private ArrayList<Schedule> schedules;
 
-    public List getScheduledTrips() {
-        return unscheduledTrips;
+    private ArrayList<Trip> scheduledTrips;
+
+    public void getScheduledTrips() {
+
     }
 
-    public void addTrip(Trip t) {
-        unscheduledTrips.add(String.valueOf(t));
-    }
 
 }

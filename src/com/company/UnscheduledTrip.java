@@ -1,15 +1,17 @@
 package com.company;
 
 import java.awt.*;
+import java.util.ArrayList;
 
 public class UnscheduledTrip extends Trip {
-    private List unscheduledTrips;
+    private ArrayList<Trip> unscheduledTrips;
 
-    public List getUnscheduledTrips() {
+
+    public ArrayList<Trip> getUnscheduledTrips() {
         return unscheduledTrips;
     }
 
-    public void setUnscheduledTrips(List unscheduledTrips) {
+    public void setUnscheduledTrips(ArrayList<Trip> unscheduledTrips) {
         this.unscheduledTrips = unscheduledTrips;
     }
 }

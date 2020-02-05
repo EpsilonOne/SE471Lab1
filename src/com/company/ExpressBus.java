@@ -3,8 +3,7 @@ package com.company;
 public class ExpressBus extends Bus {
     private final String type = "Express Bus";
     private String company;
-    private String start;
-    private  String end;
+
 
 
     public String getType() {
@@ -19,19 +18,4 @@ public class ExpressBus extends Bus {
         this.company = company;
     }
 
-    public String getStart() {
-        return start;
-    }
-
-    public void setStart(String start) {
-        this.start = start;
-    }
-
-    public String getEnd() {
-        return end;
-    }
-
-    public void setEnd(String end) {
-        this.end = end;
-    }
 }

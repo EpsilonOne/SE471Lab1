@@ -3,6 +3,8 @@ package com.company;
 public class Schedule {
     private int scheduleNumber;
     private String startTime;
+    private ScheduledTrip sTrip;
+    private  Vehicle vehicle;
 
     public static void main(String[] args) {
 
